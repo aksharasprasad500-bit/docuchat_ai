@@ -22,7 +22,7 @@ chunks retrieved as relevant to your question.
 This is the same core architecture used in production RAG systems (customer
 support bots, internal knowledge-base search, legal/medical document Q&A).
 
-## Setup (takes ~5 minutes)
+## Setup 
 
 ```bash
 # 1. Install dependencies
@@ -39,7 +39,7 @@ streamlit run app.py
 The app opens in your browser at `http://localhost:8501`. Upload a PDF and
 start asking questions.
 
-## Deploying it (so you can link a live demo on your resume)
+## Deploying
 
 Push this repo to GitHub, then deploy for free on
 [Streamlit Community Cloud](https://streamlit.io/cloud):
@@ -52,7 +52,7 @@ Push this repo to GitHub, then deploy for free on
 `Python` · `Streamlit` · `FAISS` (vector search) · `Sentence-Transformers`
 (embeddings) · `Groq API` (LLM inference) · `PyPDF2`
 
-## Possible extensions (great "future work" talking points in interviews)
+## Possible extensions 
 
 - Support multiple file formats (docx, txt, web pages)
 - Persist the FAISS index to disk so you don't re-embed on every restart
@@ -62,7 +62,7 @@ Push this repo to GitHub, then deploy for free on
 
 ---
 
-### Resume bullet points (pick 1–2, tweak the numbers to your actual results)
+### Resume bullet points 
 
 - *Built a RAG-based document Q&A application using Python, FAISS, and the
   Groq LLM API, enabling users to query PDF content in natural language with
